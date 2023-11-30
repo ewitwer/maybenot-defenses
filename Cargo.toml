@@ -1,0 +1,36 @@
+[package]
+name = "maybenot-defenses"
+version = "0.1.0"
+edition = "2021"
+license = "BSD-3-Clause"
+authors = ["Ethan Witwer <witwe004@umn.edu>"]
+repository = "https://github.com/ewitwer/maybenot-defenses"
+description = "Code from the paper State Machine Frameworks for Website Fingerprinting Defenses: Maybe Not"
+
+[dependencies]
+maybenot = { path = "../maybenot" }
+rand = "0.7.3"
+
+[[bin]]
+name = "maybenot_front"
+test = false
+doctest = false
+bench = false
+
+[[bin]]
+name = "pipelined_front"
+test = false
+doctest = false
+bench = false
+
+[[bin]]
+name = "maybenot_regulator"
+test = false
+doctest = false
+bench = false
+
+[[bin]]
+name = "maybenot_surakav"
+test = false
+doctest = false
+bench = false
